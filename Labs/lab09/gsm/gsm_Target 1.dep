@@ -1,0 +1,5 @@
+Dependencies for Project 'gsm', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\gsm.c)(0x5C60EC9A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" -o "gsm.o" --omf_browse "gsm.crf" --depend "gsm.d")
+I (C:\Keil4\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
+I (C:\Keil4\ARM\RV31\INC\string.h)(0x4B8639DE)

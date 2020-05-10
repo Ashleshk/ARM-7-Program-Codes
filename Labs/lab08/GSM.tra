@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'GSM.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"code.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "code.o" --strict --scatter "GSM.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\GSM.map" -o "GSM.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'GSM.axf'
+### ADS-LD Command File: 'GSM.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'GSM.lnp', Handle=0x000004A0
+### Writing '.lnp' file
+### ADS-LD Command file 'GSM.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

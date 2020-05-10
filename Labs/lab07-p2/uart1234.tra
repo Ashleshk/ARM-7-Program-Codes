@@ -1,0 +1,19 @@
+*** Creating Trace Output File 'uart1234.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"uart2.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "uart2.o" --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x40000000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\uart1234.map" -o "uart1234.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'uart1234.axf'
+### ADS-LD Command File: 'uart1234.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'uart1234.lnp', Handle=0x00000600
+### Writing '.lnp' file
+### ADS-LD Command file 'uart1234.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "uart2code.o" --strict --scatter "UART2.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\UART2.map" -o "UART2.axf"

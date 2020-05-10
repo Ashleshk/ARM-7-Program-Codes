@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Student Data\3508\lab07\UART.uvproj
+Project File Date:  01/28/2019
+
+<h2>Output:</h2>
+compiling uart_code.c...
+uart_code.c(28): warning:  #951-D: return type of function "main" must be "int"
+uart_code.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=964 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"UART.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling uart_code.c...
+uart_code.c(28): warning:  #951-D: return type of function "main" must be "int"
+linking...
+Program Size: Code=964 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+"UART.axf" - 0 Error(s), 1 Warning(s).

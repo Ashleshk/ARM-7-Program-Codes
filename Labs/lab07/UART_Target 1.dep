@@ -1,0 +1,4 @@
+Dependencies for Project 'UART', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\uart_code.c)(0x5C4E6E69)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" -o "uart_code.o" --omf_browse "uart_code.crf" --depend "uart_code.d")
+I (C:\Keil4\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
