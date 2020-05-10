@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Student Data\GLCD\GLCD.uvproj
+Project File Date:  01/07/2019
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling GLCD.C...
+GLCD.C(111): error:  #67: expected a "}"
+GLCD.C(118): warning:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'Target 1'
+compiling GLCD.C...
+GLCD.C(114): error:  #67: expected a "}"
+GLCD.C(117): warning:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'Target 1'
+compiling GLCD.C...
+linking...
+Program Size: Code=1180 RO-data=1040 RW-data=0 ZI-data=1256  
+"GLCD.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1180 RO-data=1040 RW-data=0 ZI-data=1256  
+"GLCD.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1452 RO-data=1040 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"GLCD.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1452 RO-data=1040 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"GLCD.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1452 RO-data=1040 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"GLCD.axf" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Student Data\GLCD\allport.uvproj
+Project File Date:  01/10/2019
+
+<h2>Output:</h2>
+compiling allport.c...
+..\ap_1\Deepak\allport.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=532 RO-data=16 RW-data=0 ZI-data=1256  
+"allport.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling allport.c...
+linking...
+Program Size: Code=804 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"..\ap_1\Deepak\allport.axf" - 0 Error(s), 0 Warning(s).

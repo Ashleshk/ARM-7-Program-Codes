@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "i2c_eeprom_n_lcd_r1.o" --strict --scatter "I2C_EEPROM.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\I2C_EEPROM.map" -o "I2C_EEPROM.axf"

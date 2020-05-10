@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "glcd.o" --strict --scatter "glcd12345.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\glcd12345.map" -o "glcd12345.axf"

@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'ADC_interrupt.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"code.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "code.o" --strict --scatter "ADC_interrupt.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ADC_interrupt.map" -o "ADC_interrupt.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ADC_interrupt.axf'
+### ADS-LD Command File: 'ADC_interrupt.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ADC_interrupt.lnp', Handle=0x00000584
+### Writing '.lnp' file
+### ADS-LD Command file 'ADC_interrupt.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

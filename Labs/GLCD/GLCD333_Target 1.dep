@@ -1,0 +1,4 @@
+Dependencies for Project 'GLCD333', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\PORT.C)(0x5C3569A9)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" -o "port.o" --omf_browse "port.crf" --depend "port.d")
+I (C:\Keil4\ARM\INC\Philips\LPC21XX.H)(0x4A02A636)

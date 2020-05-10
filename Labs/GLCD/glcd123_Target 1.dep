@@ -1,0 +1,4 @@
+Dependencies for Project 'glcd123', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\GLCD.C)(0x5C3421A4)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" -o "glcd.o" --omf_browse "glcd.crf" --depend "glcd.d")
+I (C:\Keil4\ARM\INC\Philips\lpc21xx.h)(0x4A02A636)
