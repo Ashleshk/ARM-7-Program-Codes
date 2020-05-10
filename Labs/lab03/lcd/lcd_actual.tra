@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'lcd_actual.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"code.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "code.o" --strict --scatter "lcd_actual.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lcd_actual.map" -o "lcd_actual.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'lcd_actual.axf'
+### ADS-LD Command File: 'lcd_actual.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'lcd_actual.lnp', Handle=0x000002A8
+### Writing '.lnp' file
+### ADS-LD Command file 'lcd_actual.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

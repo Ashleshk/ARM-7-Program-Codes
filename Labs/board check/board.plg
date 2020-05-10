@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Student Data\3508\board check\board.uvproj
+Project File Date:  01/07/2019
+
+<h2>Output:</h2>
+compiling code.c...
+code.c(12): warning:  #1-D: last line of file ends without a newline
+code.c - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+linking...
+Program Size: Code=792 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"board.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling code.c...
+code.c(12): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=792 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"board.axf" - 0 Error(s), 1 Warning(s).

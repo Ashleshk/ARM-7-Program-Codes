@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'ledswtich.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"lcdcode.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "lcdcode.o" --strict --scatter "ledswtich.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ledswtich.map" -o "ledswtich.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'ledswtich.axf'
+### ADS-LD Command File: 'ledswtich.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'ledswtich.lnp', Handle=0x000006A8
+### Writing '.lnp' file
+### ADS-LD Command file 'ledswtich.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 2 errors
+### Updating obj list
+### LDADS_file() completed.
