@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "send_sms.o" --strict --scatter "GSM_Send_SMS.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\GSM_Send_SMS.map" -o "GSM_Send_SMS.axf"
