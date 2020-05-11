@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "uart1.o" --strict --scatter "Serial_UART1.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Serial_UART1.map" -o "Serial_UART1.axf"
