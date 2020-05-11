@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'I2C_EEPROM_UART.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"i2c_eeprom_n_uart.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "i2c_eeprom_n_uart.o" --strict --scatter "I2C_EEPROM_UART.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\I2C_EEPROM_UART.map" -o "I2C_EEPROM_UART.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'I2C_EEPROM_UART.axf'
+### ADS-LD Command File: 'I2C_EEPROM_UART.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'I2C_EEPROM_UART.lnp', Handle=0x000007F8
+### Writing '.lnp' file
+### ADS-LD Command file 'I2C_EEPROM_UART.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

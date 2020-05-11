@@ -1,0 +1,3 @@
+Dependencies for Project 'I2C_EEPROM_UART', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F586700)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\I2C_EEPROM_n_UART.c)(0x54CFC0BE)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips -o "i2c_eeprom_n_uart.o" --omf_browse "i2c_eeprom_n_uart.crf" --depend "i2c_eeprom_n_uart.d")
