@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'Timer_delay.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"led_timer.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "led_timer.o" --strict --scatter "Timer_delay.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Timer_delay.map" -o "Timer_delay.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Timer_delay.axf'
+### ADS-LD Command File: 'Timer_delay.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Timer_delay.lnp', Handle=0x000003B4
+### Writing '.lnp' file
+### ADS-LD Command file 'Timer_delay.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
