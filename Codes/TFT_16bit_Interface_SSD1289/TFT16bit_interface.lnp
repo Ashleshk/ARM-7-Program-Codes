@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "main_tft16bit.o" "tft16bit_lcd.o" --strict --scatter "TFT16bit_interface.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\TFT16bit_interface.map" -o "TFT16bit_interface.axf"

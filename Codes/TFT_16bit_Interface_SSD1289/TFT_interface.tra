@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'TFT_interface.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main_tft16bit.o"'
+### List of Objects: adding '"tft16bit_lcd.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main_tft16bit.o" "tft16bit_lcd.o" --strict --scatter "TFT_interface.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\TFT_interface.map" -o "TFT_interface.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'TFT_interface.axf'
+### ADS-LD Command File: 'TFT_interface.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'TFT_interface.lnp', Handle=0x00000228
+### Writing '.lnp' file
+### ADS-LD Command file 'TFT_interface.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
