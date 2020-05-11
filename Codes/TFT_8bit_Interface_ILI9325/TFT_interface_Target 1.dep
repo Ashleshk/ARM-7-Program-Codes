@@ -1,0 +1,8 @@
+Dependencies for Project 'TFT_interface', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5924D8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\main.c)(0x5509AB82)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil_ARM\ARM\Inc\Philips\lpc214x.h)(0x4F59268C)
+I (TFT_LCD.h)(0x55038D3D)
+F (.\TFT_LCD.C)(0x5509AC79)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips -o "tft_lcd.o" --omf_browse "tft_lcd.crf" --depend "tft_lcd.d")
+I (C:\Keil_ARM\ARM\Inc\Philips\lpc214x.h)(0x4F59268C)
+I (TFT_LCD.h)(0x55038D3D)
