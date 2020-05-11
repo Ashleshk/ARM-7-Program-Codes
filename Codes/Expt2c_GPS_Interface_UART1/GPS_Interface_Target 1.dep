@@ -1,0 +1,5 @@
+Dependencies for Project 'GPS_Interface', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F586700)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "C:\Users\Student.MPLAB04\Documents\ipk\Startup.o")
+F (.\GPS_interface_lcd_UART1.c)(0x54F9FDF0)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" -o "C:\Users\Student.MPLAB04\Documents\ipk\gps_interface_lcd_uart1.o" --omf_browse "C:\Users\Student.MPLAB04\Documents\ipk\gps_interface_lcd_uart1.crf" --depend "C:\Users\Student.MPLAB04\Documents\ipk\gps_interface_lcd_uart1.d")
+I (C:\Keil4\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
+I (C:\Keil4\ARM\RV31\INC\string.h)(0x4B8639DE)

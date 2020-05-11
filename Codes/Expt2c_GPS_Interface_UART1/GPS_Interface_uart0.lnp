@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "gps_interface_lcd_uart0.o" --strict --scatter "GPS_Interface_uart0.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\GPS_Interface_uart0.map" -o "GPS_Interface_uart0.axf"
