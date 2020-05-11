@@ -1,0 +1,4 @@
+Dependencies for Project 'GSM_Send_SMS', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\Send_SMS.C)(0x5513E035)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil4\ARM\RV31\Inc -I C:\Keil4\ARM\CMSIS\Include -I C:\Keil4\ARM\Inc\Philips -o "send_sms.o" --omf_browse "send_sms.crf" --depend "send_sms.d")
+I (C:\Keil4\ARM\Inc\Philips\lpc214x.h)(0x4F585AA4)
