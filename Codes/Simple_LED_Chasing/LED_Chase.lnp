@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "led_chasing.o" --strict --scatter "LED_Chase.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_Chase.map" -o "LED_Chase.axf"

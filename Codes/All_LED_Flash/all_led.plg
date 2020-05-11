@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Logic\Explore_ARM_CD\ARM7_LPC2148_Codes\Additional_Programs\All_LED_Flash\all_led.uvproj
+Project File Date:  09/27/2015
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+linking...
+all_led.axf: Warning: L6665W: Neither Lib$$Request$$armlib Lib$$Request$$cpplib defined, not searching ARM libraries.
+all_led.axf: Error: L6411E: No compatible library exists with a definition of startup symbol __main.
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling all_led.c...
+all_led.c(1): error:  #77-D: this declaration has no storage class or type specifier
+all_led.c(2): error:  #65: expected a ";"
+all_led.c(43): warning:  #1-D: last line of file ends without a newline
+all_led.c(43): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling all_led.c...
+all_led.c(1): error:  #77-D: this declaration has no storage class or type specifier
+all_led.c(2): error:  #65: expected a ";"
+all_led.c(43): warning:  #1-D: last line of file ends without a newline
+all_led.c(43): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling all_led.c...
+all_led.c(2): error:  #77-D: this declaration has no storage class or type specifier
+all_led.c(2): error:  #65: expected a ";"
+all_led.c(42): warning:  #1-D: last line of file ends without a newline
+all_led.c(42): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling all_led.c...
+all_led.c(2): error:  #77-D: this declaration has no storage class or type specifier
+all_led.c(2): error:  #65: expected a ";"
+all_led.c(42): warning:  #1-D: last line of file ends without a newline
+all_led.c(42): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling all_led.c...
+all_led.c(27): warning:  #61-D: integer operation result is out of range
+all_led.c(27): warning:  #68-D: integer conversion resulted in a change of sign
+all_led.c(33): warning:  #61-D: integer operation result is out of range
+all_led.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+all_led.c(36): warning:  #61-D: integer operation result is out of range
+all_led.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+all_led.c(42): warning:  #1-D: last line of file ends without a newline
+all_led.c(24): warning:  #177-D: variable "a" was declared but never referenced
+all_led.c(24): warning:  #177-D: variable "k" was declared but never referenced
+linking...
+Program Size: Code=880 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"all_led.axf" - 0 Error(s), 9 Warning(s).
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling all_led.c...
+all_led.c(27): warning:  #61-D: integer operation result is out of range
+all_led.c(27): warning:  #68-D: integer conversion resulted in a change of sign
+all_led.c(33): warning:  #61-D: integer operation result is out of range
+all_led.c(33): warning:  #68-D: integer conversion resulted in a change of sign
+all_led.c(36): warning:  #61-D: integer operation result is out of range
+all_led.c(36): warning:  #68-D: integer conversion resulted in a change of sign
+all_led.c(43): warning:  #1-D: last line of file ends without a newline
+all_led.c(24): warning:  #177-D: variable "a" was declared but never referenced
+all_led.c(24): warning:  #177-D: variable "k" was declared but never referenced
+linking...
+Program Size: Code=888 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"all_led.axf" - 0 Error(s), 9 Warning(s).

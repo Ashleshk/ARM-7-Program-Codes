@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "led_2sw.o" --strict --scatter "LED_SW_Interface.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_SW_Interface.map" -o "LED_SW_Interface.axf"

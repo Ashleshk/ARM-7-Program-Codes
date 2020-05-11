@@ -1,0 +1,4 @@
+Dependencies for Project 'LED_SW_Interface', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5916C8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\LED_2SW.c)(0x54D0B4FA)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips -o "led_2sw.o" --omf_browse "led_2sw.crf" --depend "led_2sw.d")
+I (C:\Keil_ARM\ARM\Inc\Philips\lpc214x.h)(0x4F59187C)
