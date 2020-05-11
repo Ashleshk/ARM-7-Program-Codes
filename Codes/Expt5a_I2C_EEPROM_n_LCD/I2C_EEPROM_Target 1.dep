@@ -1,0 +1,4 @@
+Dependencies for Project 'I2C_EEPROM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F586700)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\I2C_EEPROM_n_LCD_R1.c)(0x5C8F13B6)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil4\ARM\INC" -I "C:\Keil4\ARM\INC\Philips" -o "i2c_eeprom_n_lcd_r1.o" --omf_browse "i2c_eeprom_n_lcd_r1.crf" --depend "i2c_eeprom_n_lcd_r1.d")
+I (C:\Keil4\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
