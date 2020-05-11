@@ -1,0 +1,7 @@
+Dependencies for Project 'SD_Card', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4F5924D8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips --list "Startup.lst" --xref -o "Startup.o" --depend "Startup.d")
+F (.\SD_Card_test.c)(0x54FC30E2)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_ARM\ARM\RV31\Inc -I C:\Keil_ARM\ARM\CMSIS\Include -I C:\Keil_ARM\ARM\Inc\Philips -o "sd_card_test.o" --omf_browse "sd_card_test.crf" --depend "sd_card_test.d")
+I (C:\Keil_ARM\ARM\Inc\Philips\lpc214x.h)(0x4F59268C)
+I (UART0.H)(0x54FC2ED2)
+I (SPI.H)(0x54FC2D6D)
+I (SDCARD.H)(0x54FC2ED2)

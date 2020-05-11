@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "sd_card_test.o" --strict --scatter "SD_Card_08_03.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\SD_Card_08_03.map" -o "SD_Card_08_03.axf"
