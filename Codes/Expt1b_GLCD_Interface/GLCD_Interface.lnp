@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "glcd.o" --strict --scatter "GLCD_Interface.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\GLCD_Interface.map" -o "GLCD_Interface.axf"

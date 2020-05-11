@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "lcd.o" --strict --scatter "LCD_Interface.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LCD_Interface.map" -o "LCD_Interface.axf"
