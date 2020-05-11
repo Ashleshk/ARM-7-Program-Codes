@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "adc_isr.o" --strict --scatter "ADC_Interrupt.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\ADC_Interrupt.map" -o "ADC_Interrupt.axf"
